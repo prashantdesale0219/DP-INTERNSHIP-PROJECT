@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- BOOTSTRAP CDN LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- STYLE SHEET LINK -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css">
+    <!-- BOOTSTRAP ICON CDN LINK -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="container-fluid1 col-sm-12 col-md-12 col-lg-12  col-12  ">
+        <a href="">BEEF & CHICKEN BACK IN STOCK: LIMITED QUANTITY</a>
+    </div>
+<!-- Button trigger modal -->
+<button type="button" class="btn  ww" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <i class="bi bi-list"></i>
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">SHOP PRODUCTS</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <ul class="navi1">
+                <li class=" navi-main"><a href="" class="demo">Shop<i class="bi bi-chevron-down"></i></a>
+                    <div class="container-fluid4">
+                        <span class="shop-heading-1">BEST SELLERS</span><br><br>
+
+                        <div class="shop-items">
+                            <span><a href="">Beef Bone Broth</a></span>
+                            <span><a href="">Chicken Bone Broth</a></span>
+                            <span><a href="">Mushroom Chicken Bone Broth</a></span>
+                            <span><a href="">Turmeric Ginger Chicken Bone Broth</a></span>
+                            <span><a href="">Creamy Tomato Soup</a></span>
+                            <br><br>
+
+                            <h2><a href="product.html">shop all products</a></h2>
+                        </div>
+                        <span class="shop-heading-2">BEST SELLERS</span>
+                        <div class="shop-items2">
+                            <span><a href="">Bone Broths</a></span>
+                            <span><a href="">Keto Broths</a></span>
+                            <span><a href="">Cooking Broths</a></span>
+                            <span><a href="">Regeneratively Made Broths</a></span>
+                        </div>
+                        <div class="shop-items3">
+                            <span><a href="">Soup</a></span>
+                            <span><a href="">Keto Soup</a></span>
+                            <span><a href="">Low Sodium</a></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="demo1"><a href="">Bestsellers</a></li>
+                <li class="demo1"><a href="" class="demo2">Bundles</a></li>
+                <h2 class="shop-pro"><a href="product.html">SHOP ALL PRODUCTS</a></h2>
+            </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalToggleLabel">CREATE NEW ACCOUNT</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="" id="signup" class="mt-5">
+                <div class="acc-main">
+                    <h2 class="ac-heading">Create Account</h2>
+                    
+
+                    <div class="d-flex">
+                        <input type="text" placeholder="First  Name" id="name" class="form-control inp1"> &nbsp;
+                        <input type="text" placeholder="Last  Name" class="form-control inp1" id="lastname"><br>
+                    </div>
+                    <input type="email" placeholder="Email" class="mt-3 form-control inp2" id="email">
+                    <input type="password" placeholder="Password" class="mt-3 form-control inp2" id="password">
+                    <!--     
+                    <input type="submit" class="BTN btn btn-danger mt-4 pb-4" placeholder="create acc"><br> -->
+                    <button class="BTN btn btn-danger mt-4 " id="signup_btn">CREATE ACCOUNT</button><br>
+                    <span class="text-center "> By creating an account you agree to our <a href="" class="text-danger ">Terms</a></span>
+
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">LOG IN PAGE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalToggleLabel2">LOGIN YOUR ACCOUNT</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form action="" id="login" class="mt-5">
+                <div class="acc-main2">
+                    <h2 class="ac-heading">Login to Your Account</h2><br>
+
+                    <input type="email" placeholder="Email" class="mt-3 form-control inp2" id="login-email">
+                    <input type="password" placeholder="Password" class="mt-3 form-control inp2"
+                        id="login-password">
+                    <span class="text-start "> <a href="" class="text-danger ">Forgot Your Password</a></span><br>
+                    <!-- <input type="submit" class="BTN btn btn-danger mt-4 pb-4" placeholder="create acc"><br>  -->
+                    <button class="BTN2 btn btn-danger mt-4 " id="login_btn">SIGN IN</button><br><br>
+
+                    <span class="text-center ac-last-link">Having issues managing your subscriptions?
+                        <a href="" class="link-2">Manage Subscriptions Without Password</a></span>
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">Back to first</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="btn ww2" data-bs-toggle="modal" href="#exampleModalToggle" role="button"><i class="bi bi-person-fill"></i></a>
+
+
+    <div class="container-fluid2 ">
+        <div class="col-3  text-center">
+            <ul class="navi1">
+                <span class="nav-icon"><i class="bi bi-list"></i></span>
+                <li class=" navi-main"><a href="" class="demo">Shop<i class="bi bi-chevron-down"></i></a>
+                    <div class="container-fluid4">
+                        <span class="shop-heading-1">BEST SELLERS</span><br><br>
+
+                        <div class="shop-items">
+                            <span><a href="">Beef Bone Broth</a></span>
+                            <span><a href="">Chicken Bone Broth</a></span>
+                            <span><a href="">Mushroom Chicken Bone Broth</a></span>
+                            <span><a href="">Turmeric Ginger Chicken Bone Broth</a></span>
+                            <span><a href="">Creamy Tomato Soup</a></span>
+                            <br><br>
+
+                            <h2><a href="product.html">SHOP ALL PRODUCTS</a></h2>
+                        </div>
+                        <span class="shop-heading-2">BEST SELLERS</span>
+                        <div class="shop-items2">
+                            <span><a href="">Bone Broths</a></span>
+                            <span><a href="">Keto Broths</a></span>
+                            <span><a href="">Cooking Broths</a></span>
+                            <span><a href="">Regeneratively Made Broths</a></span>
+                        </div>
+                        <div class="shop-items3">
+                            <span><a href="">Soup</a></span>
+                            <span><a href="">Keto Soup</a></span>
+                            <span><a href="">Low Sodium</a></span>
+                        </div>
+                    </div>
+                </li>
+                <li class="demo1"><a href="">Bestsellers</a></li>
+                <li class="demo1"><a href="" class="demo2">Bundles</a></li>
+            </ul>
+        </div>
+        <div class="col-4 logo-main">
+            <img src="images/logo-kf.svg" alt="" class="logo-img">
+        </div>
+        <div class="col-4 text-center">
+            <ul class="navi2">
+                <li class="drop-main"><a href=""></a>Learn <i class="bi bi-chevron-down"></i></a>
+                    <ul class="drops list-unstyled ">
+                        <li class="d-1"><a href=""><i class="bi bi-file-earmark-text-fill i-1"></i><span>Learn
+                                    Liabrary</span><br>&nbsp;&nbsp; &nbsp;&nbsp; Learn everything about bone
+                                broth,nutrition,and &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                                &nbsp;&nbsp;&nbsp;more</a></li>
+                        <li class="d-1"><i class="bi bi-journal-text"></i><span>Start Here</span><br>&nbsp;&nbsp;
+                            &nbsp;&nbsp;&nbsp;<a href="">Product Guides</a><br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                            <a href="">FAQ</a><br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                            <a href="">All About Bone Broth</a>
+                        </li>
+                        <li class="d-1"><i class="bi bi-flag-fill"></i><span>
+                                Learn More</span><br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<a
+                                href="">Benefits</a><br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                            <a href="">Recipes</a><br>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                            <a href="">Blog</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="d-main"><a href="">About Us</a></li>
+                <li class="d-main"><a href="">Loyalty Program </a></li>
+                <li class="pro-cart-main3"><a href=""><i class="bi bi-search"></i></a></li>
+                <li class="pro-cart-main"><a href="login.html" target="_parent"><i class="bi bi-person-fill"></i></a>
+                </li>
+                <li class="pro-cart-main2"><a href="" class="btn" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <span id="cart-count"></span>
+                        <i class="bi bi-cart-fill"></i></a>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+
+                        </div>
+
+
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="container-fluid6">
+        <div class="fluid-6 ">
+            <div class="bonus-main">
+                <div class="review-main">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i> &nbsp;
+                    <b>50,000+</b>&nbsp;<span style="font-weight: 100;">5-Star Reviews</span><br><br>
+
+                    <h1>Health is in <br> Our Bones™</h1><br>
+                    <p>Great-tasting bone broths & soups <br> made with high-quality ingredients to <br> support your
+                        health & wellness goals.</p><br><br>
+
+                    <button class="btn btn-danger">SHOP NOW</button>
+                </div>
+
+            </div>
+            <div class="home-img-main">
+                <img src="images/Homepage_Cream_828x.png" alt="" class="w-100 ">
+
+            </div>
+        </div>
+        <div class="fluid-6-02 mt-5">
+            <div class="row d-flex w-100 justify-content-center">
+                <div class="col-6 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2  ">
+                    <a href="" class="link-1st ">
+                        <img src="images/pro-1.png" alt="" height="280px">
+                        <p class="text-warning fs-5"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i></p>
+                        <span>7,462 Reviews</span>
+                        <h5>Chicken Bone Broth</h7>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 ">
+                    <a href="" class="link-1st">
+                        <img src="images/pro-2.png" alt="" height="280px">
+                        <p class="text-warning fs-5"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i></p>
+                        <span>7,462 Reviews</span>
+                        <h5>Chicken Bone Broth</h7>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 ">
+                    <a href="" class="link-1st">
+                        <img src="images/pro-3.png" alt="" height="280px">
+                        <p class="text-warning fs-5"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i></p>
+                        <span>7,462 Reviews</span>
+                        <h5>Chicken Bone Broth</h7>
+                    </a>
+                </div>
+                <div class="col-6 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 ">
+                    <a href="" class="link-1st">
+                        <img src="images/pro-4.png" alt="" height="280px">
+                        <p class="text-warning fs-5"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i></p>
+                        <span>7,462 Reviews</span>
+                        <h5>Chicken Bone Broth</h7>
+                    </a>
+                </div>
+            </div>
+            <button class="btn btn-danger">SHOP BEST SELLERS</button>
+        </div>
+    </div>
+    <div class="explore-main">
+        <h1>Bone Broth Makes Everything Better</h1>
+        <div class="row w-100 d-flex justify-content-center ">
+            <div class="col-2 col-sm-6 col-md-3 col-xl-2 col-6">
+                <img src="images/pro-5.png" alt="" class="i-img">
+                <h5>Digestion & <br>Gut Health</h3>
+            </div>
+            <div class="col-2 col-sm-6 col-md-3 col-xl-2 col-6">
+                <img src="images/pro-6.png" alt="" class="i-img">
+                <h5>Joint Mobility & <br>Recovery</h3>
+            </div>
+            <div class="col-2 col-sm-6 col-md-3 col-xl-2 col-6">
+                <img src="images/pro-7.png" alt="" class="i-img">
+                <h5>Immune <br> Function</h3>
+            </div>
+            <div class="col-2 col-sm-6 col-md-3 col-xl-2 col-6">
+                <img src="images/pro-8.png" alt="" class="i-img">
+                <h5>Anti-Inflammatory <br> Responses</h3>
+            </div>
+            <div class="col-2 col-sm-6 col-md-3 col-xl-2 col-6">
+                <img src="images/pro-9.png" alt="" class="i-img">
+                <h5>Weight <br> Management</h3>
+            </div>
+        </div>
+        <button class="btn btn-danger">EXPLORE ALL BROTHS</button>
+
+    </div>
+
+    <div class="shipping-main">
+        <marquee behavior="scroll" direction=""><img src="images/truckkk.png" alt=""> GET 12 CARTONS, GET FREE SHIPPING
+            &nbsp;&nbsp;
+            <img src="images/truckkk.png" alt=""> GET 12 CARTONS, GET FREE SHIPPING &nbsp;&nbsp;
+            <img src="images/truckkk.png" alt=""> GET 12 CARTONS, GET FREE SHIPPING &nbsp;&nbsp;
+            <img src="images/truckkk.png" alt=""> GET 12 CARTONS, GET FREE SHIPPING &nbsp;&nbsp;
+            <img src="images/truckkk.png" alt=""> GET 12 CARTONS, GET FREE SHIPPING
+        </marquee>
+
+    </div>
+
+    <div class="banner-main">
+        <div class="banner-content">
+            <h1>Bundle & Save 10%</h1>
+            <button class="btn btn-danger">SHOP BUNDLES</button>
+
+        </div>
+
+    </div>
+
+    <div class="shipping-main2">
+        <marquee behavior="scroll" direction="">💪 GET 12 CARTONS, GET FREE SHIPPING
+            &nbsp;&nbsp;
+            💪 GET 12 CARTONS, GET FREE SHIPPING &nbsp;&nbsp;
+            💪 GET 12 CARTONS, GET FREE SHIPPING &nbsp;&nbsp;
+            💪 GET 12 CARTONS, GET FREE SHIPPING &nbsp;&nbsp;
+            💪 GET 12 CARTONS, GET FREE SHIPPING
+        </marquee>
+
+    </div>
+
+    <div class="learn-more-main">
+        <div class="learn-more-main-design ">
+
+        </div>
+       <div class="row w-100 d-flex justify-content-around">
+        <div class="col-12 col-sm-12 col-md-4 col-xl-5 col-xxl-5 col-12 ">
+            <h1>
+                It’s our mission to <br> create products that heal,<br> rather than harm.
+            </h1>
+        </div>
+        <div class="col-12 col-sm-12 col-md-4 col-xl-5 col-xxl-5 col-12">
+            <span>We create products that nourish our bodies & the planet.</span><br>
+            <span>We do this through our sourcing standards, focusing on the health of animals & optimal farming practices.</span><br>
+            <span>We also do this through our processes, using time & heat to extract the most flavor & nutrition.
+            </span><br>
+            <button class="btn btn-danger">LEARN MORE</button>
+        </div>
+       </div>
+      
+
+
+    </div>
+
+    <div class="subscribe-main">
+       <div class="row w-100 d-flex justify-content-around">
+        <div class="col-12 col-sm-12 col-md-4 col-xl-5 col-xxl-5 col-12 ">
+           <img src="images/555x_copy.jpg" alt="" class="img-fluid w-100 ps-5">
+        </div>
+        <div class="col-12 col-sm-12 col-md-4 col-xl-5 col-xxl-5 col-12">
+            <div class="content-main">
+                <h1>Subscribe & Save</h1><br>
+            <span>No Commitment • Delivered Monthly</span><br>
+            <button class="btn btn-danger">SHOP BROTHS SUBSCRIPTION</button><br>
+            <b>20% Off Every Subscription Order</b>
+            </div>
+            
+        </div>
+       </div>
+      
+
+
+    </div>
+
+    <div class="client-main">
+        <h1>Kettle & Fire in the Wild</h1>
+        <div class="row w-100 justify-content-around pt-2">
+            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12">
+                <img src="images/1download.jpeg" alt="">
+                <b class="text-dark">@lyfewithmarciav</b>
+                <p>
+                    "It helped repair my leaky gut, digestion, inflammation, sugar cravings, energy levels"
+                </p>
+                <a href="">
+                    SHOP CHICKEN BONE BROTH
+                </a>
+            </div>
+            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12">
+                <img src="images/2download.jpeg" alt="">
+                <b class="text-dark">@lyfewithmarciav</b>
+                <p>
+                    "It helped repair my leaky gut, digestion, inflammation, sugar cravings, energy levels"
+                </p>
+                <a href="">
+                    SHOP CHICKEN BONE BROTH
+                </a>
+            </div>
+            <div class="col-3 col-sm-12 col-md-6 col-xl-3 col-12">
+                <img src="images/3download.jpeg" alt="">
+                <b class="text-dark">@lyfewithmarciav</b>
+                <p>
+                    "It helped repair my leaky gut, digestion, inflammation, sugar cravings, energy levels"
+                </p>
+                <a href="">
+                    SHOP CHICKEN BONE BROTH
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="find-store-main">
+        <h1>Find us in more than 10,000 stores, nationwide.</h1><br><br>
+        <div class="row d-flex justify-content-around w-100">
+            <div class="col-2 col-sm-6 col-md-4 col-xl-2 col-6">
+                <img src="images/brl1.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-2 col-sm-6 col-md-4 col-xl-2 col-6">
+                <img src="images/brl2.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-2 col-sm-6 col-md-4 col-xl-2 col-6 pt-2">
+                <img src="images/brl3.png" alt="" class="img-fluid">
+            </div>
+            <div class="col-2 col-sm-6 col-md-4 col-xl-2 col-6">
+                <img src="images/brl4.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <div class="get-coupen-main">
+        <div class="row d-flex justify-content-around w-100">
+            <div class="col-5 col-sm-12 col-md-5 col-xl-5 col-12 ">
+                <h4>Take an extra 10% off your first order</h4>
+                <p>We’ll also send you delicious recipes, product updates, and more.</p>
+            </div>
+            <div class="col-5 col-sm-12 col-md-5 col-xl-5 col-12 d-flex ">
+                <input type="email" placeholder="YOUR email" class="form-control w-50 ttt">
+                <button class="btn btn-danger ttt">GET MY COUPEN CODE </button>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid7">
+        <div class="row w-100 ">
+
+            <div class="col-6 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2  foot1"><span>Follow Us</span>
+                <ul>
+                    <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                    <li><a href=""><i class="bi bi-instagram"></i></a></li>
+                    <li><a href=""><i class="bi bi-twitter"></i></a></li>
+                    <li><a href=""><i class="bi bi-pinterest"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2  foot2"><span>Shop</span>
+                <ul>
+                    <li><a href="">Bone Broths</a></li>
+                    <li><a href="">Soups</a></li>
+                    <li><a href="">Keto Broths</a></li>
+                    <li><a href="">Keto Soups</a></li>
+                    <li><a href="">Cooking Broths</a></li>
+                    <li><a href="">Low Sodium Cooking Broths</a></li>
+                    <li><a href="">Regeneratively Made Broths</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2  foot2"><span>Explore</span>
+                <ul>
+                    <li><a href="">Our Story</a></li>
+                    <li><a href="">Bone Broth Benefits</a></li>
+                    <li><a href="">Recipes</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Customer Stories</a></li>
+
+                </ul>
+            </div>
+            <div class="col-6 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2  foot2"><span>Company</span>
+                <ul>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Brand Ambassador</a></li>
+                    <li><a href="">Wholesale</a></li>
+                    <li><a href="">Refer a Friend</a></li>
+                    <li><a href="">Healthcare Ambassadors</a></li>
+                    <li><a href="">Store Locations</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2  foot2"><span>Customers</span>
+                <ul>
+                    <li><a href="">Account</a></li>
+                    <li><a href="">Get Help</a></li>
+                </ul>
+            </div>
+            <hr>
+            <div class="container mt-0 mb-5">
+                <div class="col-10 foot-links">
+                    <ul class="d-flex flex-sm-column flex-lg-row flex-column">
+                        <li class="col-2 col-sm-6 col-md-3 col-lg-2 col-xl-2 col-12">©<a href=""> Kettle & Fire
+                            </a>2024.</li>
+                        <li class="col-2 col-sm-6 col-md-3 col-lg-2 col-xl-2 col-12"><a href=""> Contact Us </a></li>
+                        <li class="col-2 col-sm-6 col-md-3 col-lg-2 col-xl-2 col-12"><a href="">Refund Policy </a></li>
+                        <li class="col-2 col-sm-6 col-md-3 col-lg-2 col-xl-2 col-12"><a href=""> Privacy Policy </a>
+                        </li>
+                        <li class="col-2 col-sm-6 col-md-3 col-lg-2 col-xl-2 col-12"><a href="">Terms</a></li>
+                        <li class="col-2 col-sm-6 col-md-3 col-lg-2 col-xl-2 col-12"><a href="">Do Not Sell My Personal
+                                Information</a></li>
+                        <li class="col-2 col-sm-6 col-md-3 col-lg-2 col-xl-2 col-12"><a href="">Site by Boost and
+                                RTNU</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+    </div>
+
+    <!-- <span class="nav-icon"><i class="bi bi-list"></i></span> -->
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
+<script>
+    
+
+let signup = document.getElementById("signup_btn").addEventListener("click",(e)=>{
+    let firstName,lastName,email,password;
+    firstName = document.getElementById("name").value;
+    lastName = document.getElementById("lastname").value;
+    email = document.getElementById("email").value
+    password = document.getElementById("password").value;
+    
+    let user_records = new Array()
+        user_records = JSON.parse(localStorage.getItem("users"))?JSON.parse(localStorage.getItem("users")):[]
+        if(user_records.some((v)=>{return v.email==email})){
+            alert("Email already exists")
+            }
+            else{
+            user_records.push({
+                "firstName":firstName,
+                "lastName":lastName,
+                "email":email,
+                "password":password
+                })
+                localStorage.setItem("users",JSON.stringify(user_records));
+                alert("User created successfully")
+            }
+ })
+
+ let login = document.getElementById("login_btn").addEventListener("click",()=>{
+    let email,password;
+    email = document.getElementById("login-email").value
+    password = document.getElementById("login-password").value;
+      let user_records = new Array()
+    user_records = JSON.parse(localStorage.getItem("users"))?JSON.parse(localStorage.getItem("users")):[];
+    if(user_records.some((v)=>{
+        return v.email==email && v.password==password
+    })){
+        alert("Login successful")
+    }
+    else{
+        alert("Login Fail")
+    }
+
+ })
+
+</script>
+<!-- <script>
+    let counter = 0;
+
+    const counterValue = document.getElementById('counter-value');
+    const incrementBtn = document.getElementById('increment-btn');
+    const decrementBtn = document.getElementById('decrement-btn');
+    const resetBtn = document.querySelector('#reset');
+
+    // To increment the value of counter
+    incrementBtn.addEventListener('click', () => {
+        counter++;
+        counterValue.innerHTML = counter;
+    });
+
+    // To decrement the value of counter
+    decrementBtn.addEventListener('click', () => {
+        counter--;
+        counterValue.innerHTML = counter;
+    });
+
+    // To reset the counter to zero
+    resetBtn.addEventListener('click', reset);
+
+    function reset() {
+        counter = 0;
+        counterValue.innerHTML = counter;
+    }
+</script> -->
